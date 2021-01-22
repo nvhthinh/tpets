@@ -1,0 +1,26 @@
+.div_manager li a {
+  font-weight: 600;
+  color: #f93f3f; }
+.div_manager li .active {
+  color: #ffffff !important;
+  background-color: #f93f3f !important; }
+.div_manager .tab_cart {
+  padding: 15px; }
+  .div_manager .tab_cart .tl_status {
+    font-size: 1.2em;
+    font-weight: 600; }
+  .div_manager .tab_cart .status {
+    color: #f93f3f;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase; }
+  .div_manager .tab_cart .item {
+    border-bottom: 1px solid #c7c5c5; }
+  .div_manager .tab_cart .cart {
+    border-bottom-style: dashed;
+    border-bottom-color: red;
+    margin: 3em 0; }
+    .div_manager .tab_cart .cart .bt_cancel {
+      margin-left: 5em; }
+
+/*# sourceMappingURL=customStyle.css.map */

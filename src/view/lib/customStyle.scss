@@ -1,0 +1,39 @@
+// for cart nmanager
+.div_manager {
+    li {
+        a {
+            font-weight: 600;
+            color: #f93f3f;
+        }
+        .active {
+            color: #ffffff !important;
+            background-color: #f93f3f !important;
+        }
+    }
+    // border-bottom-style: dashed;
+    // border-bottom-color: red;
+    .tab_cart {
+        padding: 15px;
+        .tl_status {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        .status {
+            color: #f93f3f;
+            font-size: 1.4em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .item {
+            border-bottom: 1px solid #c7c5c5;
+        }
+        .cart {
+            border-bottom-style: dashed;
+            border-bottom-color: red;
+            margin: 3em 0;
+            .bt_cancel {
+                margin-left: 5em;
+            }
+        }
+    }
+}
