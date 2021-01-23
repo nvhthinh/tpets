@@ -1,72 +1,106 @@
 import React, { Component } from "react";
 import logo from './logo.svg';
-import './view/lib/css.css';
-// <!-- custom on page shoppingCart -->
-// import './view/lib/shoppingCart.css';
-
-import $ from 'jquery';
-// import './view/lib/js.js';
-
-// https://pro.fontawesome.com/releases/v5.10.0/css/all.css
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 
-// import common
-import Menu_header from './view/components/common/header_top';
-import Menu_search from './view/components/common/header_search';
-import Menu_item_slide from './view/components/common/header_item_slide';
-import Menu_item from './view/components/common/header_item';
-import Footer from './view/components/common/footer';
+import Menu_header from './component/common/header_top';
+import Search from './component/common/header_search';
+// unlogin
+import Menu_header_non from './component/common/header_top_nonlog';
+import Search_non from './component/common/header_search_nonelog';
+
+import Item_slide from './component/common/form/header_item_slide';
+import Item from './component/common/form/header_item';
+import Footer from './component/common/footer';
+
+import Home from './component/index';
+import View_product from './component/view_product';
+import View_new from './component/view_new';
+import Shopping_cart from './component/shopping_cart';
+import Shop_cat from './component/shop_cat';
+import Shop_dog from './component/shop_dog';
+import Sale from './component/sale';
+import News from './component/news';
+import Cart_manager from './component/cart_manager';
+
+
 
 //import page
-import Home from './view/components/page/home';
-import News from './view/components/page/news';
-import Pay from './view/components/page/pay';
-import Sale from './view/components/page/sale';
-import ShopCat from './view/components/page/shop_cat';
-import ShoppingCat from './view/components/page/shopping_cat';
-import ViewNew from './view/components/page/view_new';
-import ViewProduct from './view/components/page/view_product';
+// import Home from './view/components/page/home';
+
 function App() {
     return (
-    <Router>
-        <div className = "App">
-            <Menu_header/>
-            <Menu_search/>
-            <Menu_item_slide/>
-           
+        <Router>
             <Switch>
-                <Route path="/tintuc">
-                    <News />
+                <Route path="/khach">
+                    <Menu_header_non/>
+                    <Search_non/>
+                    <Item_slide/>
+                    <Home/>
                 </Route>
-
-                <Route path="/hoadon">
-                    <Pay />
+                <Route path="/sanpham">
+                    <Menu_header />
+                    <Search/>
+                    <Item/>
+                    <View_product/>
                 </Route>
-                <Route path="/khuyenmai">
-                    <Sale />
-                </Route>
-                <Route path="/shopmeo">
-                    <ShopCat />
+                <Route path="/doctin">
+                    <Menu_header />
+                    <Search/>
+                    <Item/>
+                    <View_new/>
                 </Route>
                 <Route path="/giohang">
-                    <ShoppingCat />
+                    <Menu_header />
+                    <Search/>
+                    <Shopping_cart/>
                 </Route>
-                <Route path="/lamsao">
-                    <ViewNew />
+                <Route path="/shopmeo">
+                    <Menu_header />
+                    <Search/>
+                    <Item/>
+                    <Shop_cat/>
                 </Route>
-                <Route path="/chitietsanpham">
-                    <ViewProduct />
+                <Route path="/shopcun">
+                    <Menu_header />
+                    <Search/>
+                    <Item/>
+                    <Shop_dog/>
+                </Route>
+                <Route path="/giamgia">
+                    <Menu_header />
+                    <Search/>
+                    <Item_slide/>
+                    <Sale/>
+                </Route>
+                <Route path="/tintuc">
+                    <Menu_header />
+                    <Search/>
+                    <Item/>
+                    <News/>
+                </Route>
+                <Route path="/donhang">
+                    <Menu_header />
+                    <Search/>
+                    <Cart_manager/>
                 </Route>
                 <Route path="/">
-                    <Home />
+                    <Menu_header />
+                    <Search/>
+                    <Item_slide/>
+                    <Home/>
                 </Route>
             </Switch>
             
+            {/* <Item_slide/> */}
+            {/* <Home/> */}
+            {/* <View_product/> */}
+            {/* <View_new/> */}
+            {/* <Shopping_cart/> */}
+            {/* <Shop_cat/> */}
+            {/* <Sale/> */}
+            {/* <News/> */}
             <Footer/>
-        </div>
-    </Router>
+        </Router>
     );
 }
 
