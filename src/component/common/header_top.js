@@ -9,8 +9,8 @@ export default class Login extends Component {
                 <nav className="container navbar navbar-expand-sm navbar-light">
                 <a className="navbar-brand co_it" href="#">HOTLINE: 1900 6969</a>
                 <div className="mb">
-                    <a className="ico" href="#"><i className="fas fa-receipt" /></a>
-                    <a className="ico" href="#"><i className="fas fa-cart-arrow-down" /></a>
+                    <Link to="/donhang" className="ico"><i className="fas fa-receipt" /></Link>
+                    <Link to="/giohang" className="ico"><i className="fas fa-cart-arrow-down" /></Link>
                 </div>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
