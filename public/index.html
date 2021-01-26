@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="./view_product.css">
   <!-- custom on page shoppingCart -->
   <link rel="stylesheet" href="./shoppingCart.css">
+  <link rel="stylesheet" href="./customStyle.css">
   <script>
     resize = () => {
       var width = $(window).width();
@@ -26,20 +27,20 @@
       } else {
         $("#nav_head_3").removeClass('nav-pills nav-fill').addClass('flex-column');
       }
-      // for mb
-      if (width < 751) {
-        $(".desk").css("display", "none");
-        $(".mb").css("display", "block");
-      } else {
-        $(".desk").css("display", "block");
-        $(".mb").css("display", "none");
-      }
-      //for tablet
-      if (width < 1450) {
-        $(".search_2 span").css("display", "none");
-      } else {
-        $(".search_2 span").css("display", "inline-block");
-      }
+      // // for mb
+      // if (width < 751) {
+      //   $(".desk").css("display", "none");
+      //   $(".mb").css("display", "block");
+      // } else {
+      //   $(".desk").css("display", "block");
+      //   $(".mb").css("display", "none");
+      // }
+      // //for tablet
+      // if (width < 1450) {
+      //   $(".search_2 span").css("display", "none");
+      // } else {
+      //   $(".search_2 span").css("display", "inline-block");
+      // }
     }
     window.onload = function () {
       resize();

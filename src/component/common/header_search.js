@@ -21,7 +21,7 @@ export default class Login extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-4 search_2 desk" style={{display: 'none'}}>
+                <div className="col-lg-3 col-md-4 search_2 desk">
                     <Link to="/donhang"><i className="fas fa-receipt fa-2x" /> <span>kiểm tra đơn hàng</span></Link>
                     <Link to="/giohang"><i className="fas fa-cart-arrow-down fa-2x" /> <span>Giỏ hàng</span></Link>
                 </div>

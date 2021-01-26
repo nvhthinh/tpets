@@ -3,7 +3,8 @@
 
 .bg_it {
   background-color: #F93F3F !important; }
-
+.cl_it {
+  color: #F93F3F !important; }
 .bg_div {
   background-color: #fff !important; }
 
@@ -65,6 +66,7 @@
 .search .search_1 {
   display: flex;
   align-items: center; }
+
   .search .search_1 input {
     border: 1px solid #F93F3F !important; }
 .search .search_2 {
@@ -126,6 +128,9 @@ footer {
     padding: 1em;
     padding-top: 0px; }
   .gr_product .product .pr_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     margin-bottom: 0px; }
   .gr_product .product .gr_price {
     margin-bottom: 0px;
@@ -174,11 +179,17 @@ h2 {
   .div_pr3 .detail_wrap .detail {
     background-color: #DCEEFB;
     width: 100%; }
-    .div_pr3 .detail_wrap .detail h2 {
+    .div_pr3 .detail_wrap .detail h2 { 
       background-color: #75BCCC;
       color: #fff !important;
       padding-top: 0.5rem;
       padding-bottom: 0.5rem; }
+        .div_pr3 .detail_wrap2 .detail {
+    background-color: #fbdcf3 !important;
+    }
+    .div_pr3 .detail_wrap2 .detail h2 { 
+      background-color: #cc75a1 !important;
+      }
     .div_pr3 .detail_wrap .detail .list_ct {
       padding-left: 1rem; }
       .div_pr3 .detail_wrap .detail .list_ct a {
@@ -328,3 +339,73 @@ h2 {
   display: none; } */
 
 /*# sourceMappingURL=css.css.map */
+/* // for mb
+      if (width < 751) {
+        $(".desk").css("display", "none");
+        $(".mb").css("display", "block");
+      } else {
+        $(".desk").css("display", "block");
+        $(".mb").css("display", "none");
+      }
+      //for tablet
+      if (width < 1450) {
+        $(".search_2 span").css("display", "none");
+      } else {
+        $(".search_2 span").css("display", "inline-block");
+      } */
+/* for img shop */
+@media only screen and (max-width: 1199px) {
+  .detail .rs{
+    display: none;
+  }
+  .div_pr3 .detail_wrap .detail .list_ct a {
+    display: inline-block;
+    padding: 5px 10px;
+  }
+}
+/* for mb desk */
+@media only screen and (max-width: 1361px) {
+  .search .search_2 a span{
+    display: none;
+  }
+}
+/* for link item */
+@media only screen and (max-width: 1220px) {
+  .head_3 .txt{
+    display: none;
+  }
+  .head_3 .ico{
+    display: block;
+  }
+}
+  .mb{
+    display: none;
+  }
+@media only screen and (max-width: 950px) {
+  .mb{
+    display: block;
+  }
+  .desk{
+    display: none !important;
+  }
+}
+
+/* //item tim hieu*/
+@media only screen and (min-width: 820px) {
+  .inline{
+    display: inherit;
+  }
+}
+.search .search_1 .f_search{
+  min-width: 150px;
+}
+
+/* //for header top */
+@media only screen and (min-width: 700px) {
+  .logo, .search .search_1 .f_search{
+    min-width: 300px;
+  }
+}
+.search .search_1 .f_search{
+  min-width: 150px;
+}

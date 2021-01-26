@@ -24,14 +24,14 @@ export default class Login extends Component {
                         <a className="nav-link co_it nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tên khách hàng</a>
                         {/* Dropdown - User Information */}
                         <div className="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                        <Link to="/khach" className="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                        <a className="dropdown-item" href="./khach">
                             <i className="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400" /> Đăng xuất
-                        </Link>
+                        </a>
                         </div>
                     </li>
-                    <li className="nav-item" data-toggle="modal" data-target="#modal_gr_login" style={{display: 'none'}}>
+                    {/* <li className="nav-item" data-toggle="modal" data-target="#modal_gr_login" style={{display: 'none'}}>
                         <Link className="nav-link co_it" href="/"><i className="fas fa-sign-in-alt" /> Đăng nhập</Link>
-                    </li>
+                    </li> */}
                     </ul>
                 </div>
                 </nav>

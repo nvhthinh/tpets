@@ -8,7 +8,7 @@ export default class Login extends Component {
             <div className="container-fluid body_page" style={{marginTop: '30px'}}>
                 {/* content, prduct sale of */}
                 <div className="div_pr1 bg_div">
-                    <Link  to="/giamgia" style={{textDecoration: 'none', color: '#000'}} ><h2 className="text-center"># KHUYẾN MẠI HOT</h2></Link>
+                    <Link  to="/giamgia" style={{textDecoration: 'none'}}><h2 className="text-center cl_it"># KHUYẾN MẠI HOT</h2></Link>
                 <div className="hr_title" />
                 <div className="gr_product row">
                     {/* list product */}
@@ -23,7 +23,7 @@ export default class Login extends Component {
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm màu vàng</p></Link>
                     <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">17.000đ</span></p>
                     <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                     </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -35,7 +35,7 @@ export default class Login extends Component {
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
                     <p className="gr_price text-center"><span className="old">235.000</span> &nbsp; <span className="new">130.000đ</span></p>
                     <div className=" text-center">
-                        <button type="button" className="btn bt_product">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                     </div>
                     <div />
                     </div>
@@ -48,7 +48,8 @@ export default class Login extends Component {
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Balo màu vàng</p></Link>
                     <p className="gr_price text-center"><span className="old">55.000</span> &nbsp; <span className="new">10.000đ</span></p>
                     <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                     </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -60,7 +61,7 @@ export default class Login extends Component {
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
                     <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">210.000đ</span></p>
                     <div className=" text-center">
-                        <button type="button" className="btn bt_product">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                     </div>
                     <div />
                     </div>
@@ -73,7 +74,7 @@ export default class Login extends Component {
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm</p></Link>
                     <p className="gr_price text-center"><span className="old">35.000</span> &nbsp; <span className="new">20.000đ</span></p>
                     <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                     </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -85,7 +86,7 @@ export default class Login extends Component {
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
                     <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">290.000đ</span></p>
                     <div className=" text-center">
-                        <button type="button" className="btn bt_product">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                     </div>
                     <div />
                     </div>
@@ -128,9 +129,10 @@ export default class Login extends Component {
                 {/* content, detail hot category :dog*/}
                 <div className="div_pr3 row margin_div_top bg_div">
                 {/* content, detail menu hot category :dog*/}
-                <div className="col-sm-4 col-xl-2 detail_wrap">
+                <div className="col-sm-12 col-xl-2 detail_wrap">
                     <div className="detail">
-                    <h2 className="text-center">SHOP CÚN CƯNG</h2>
+                    <Link to='shopcun' style={{textDecoration: 'none'}}><h2 className="text-center">SHOP CÚN CƯNG</h2></Link>
+                    
                     <div className="list_ct margin_div_top">
                         <a href="#">Thức ăn cho cún</a>
                         <a href="#">Pate cho cún</a>
@@ -141,12 +143,12 @@ export default class Login extends Component {
                         <a href="#">Vật dụng</a>
                         <a href="#">Bình sữa</a>
                     </div>
-                    <img src="./pic/list_dog.png" className="margin_div_top desk" alt="Cinque Terre" style={{display: 'none'}} />
+                    <img src="./pic/list_dog.png" className="margin_div_top rs" alt="Cinque Terre"/>
                     </div>
                 </div>
                 {/* content, detail menu hot category :dog*/}
                 {/* content, content hot category :dog*/}
-                <div className="col-sm-8 col-xl-10">
+                <div className="col-sm-12 col-xl-10">
                     {/* content, carousel producer of hot category :dog*/}
                     <div className="row d-flex align-items-center">
                     <div className="col-12">
@@ -206,7 +208,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">56.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                            <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -215,7 +217,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">290.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                            <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -224,7 +226,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">220.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -233,7 +235,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center">&nbsp; <span className="new">440.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -242,7 +244,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">123.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -251,7 +253,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">111.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -260,7 +262,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">10.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -269,7 +271,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"><span className="new">227.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -278,7 +280,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">200.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -287,7 +289,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">110.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -296,7 +298,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">220.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -305,7 +307,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">330.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     </div>
@@ -316,9 +318,10 @@ export default class Login extends Component {
 
                 <div className="div_pr3 row margin_div_top bg_div">
                 {/* content, detail menu hot category :dog*/}
-                <div className="col-sm-4 col-xl-2 detail_wrap">
+                <div className="col-sm-12 col-xl-2 detail_wrap detail_wrap2"style={{backgroundColor: '#fbdcf3 !important'}}>
                     <div className="detail">
-                    <h2 className="text-center">SHOP MÈO CƯNG</h2>
+                    <Link to='shopcun' style={{textDecoration: 'none'}}><h2 style={{backgroundColor: '#cc75a1 !important'}} className="text-center">SHOP MÈO CƯNG</h2></Link>
+                    
                     <div className="list_ct margin_div_top">
                         <a href="#">Thức ăn cho mèo</a>
                         <a href="#">Pate cho mèo</a>
@@ -329,12 +332,12 @@ export default class Login extends Component {
                         <a href="#">Vật dụng</a>
                         <a href="#">Bình sữa</a>
                     </div>
-                    <img src="./pic/list_dog.png" className="margin_div_top desk" alt="Cinque Terre" style={{display: 'none'}} />
+                    <img src="./pic/list_dog.png" className="margin_div_top rs" alt="Cinque Terre"/>
                     </div>
                 </div>
                 {/* content, detail menu hot category :dog*/}
                 {/* content, content hot category :dog*/}
-                <div className="col-sm-8 col-xl-10">
+                <div className="col-sm-12 col-xl-10">
                     {/* content, carousel producer of hot category :dog*/}
                     <div className="row d-flex align-items-center">
                     <div className="col-12">
@@ -394,7 +397,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">56.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -403,7 +406,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">290.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -412,7 +415,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">220.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -421,7 +424,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center">&nbsp; <span className="new">440.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -430,7 +433,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">123.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -439,7 +442,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">111.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -448,7 +451,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">10.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -457,7 +460,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"><span className="new">227.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -466,7 +469,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">200.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -475,7 +478,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">110.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -484,7 +487,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">220.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
@@ -493,7 +496,7 @@ export default class Login extends Component {
                         <p className="gr_price text-center"> <span className="new">330.000đ</span>
                         </p>
                         <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
+                        <Link to ="/sanpham"><button type="button" className="btn bt_product btn-xs">Chọn mua</button></Link>
                         </div>
                     </div>
                     </div>
@@ -505,50 +508,56 @@ export default class Login extends Component {
                 {/* content, detail hot category :dog*/}
                 {/* content, tips */}
                 <div className="div_tip d-inline-flex flex-fill">
-                <div className="tip flex-fill"style={{minWidth: '200px'}}>
-                    <div className="wrap_part_tip_1">
-                    <img src="./pic/pr25.png" className alt="Cinque Terre" />
+                <div className="inline">
+                    <div className="tip flex-fill">
+                        <div className="wrap_part_tip_1">
+                        <img src="./pic/pr25.png" className alt="Cinque Terre" />
+                        </div>
+                        <div className="wrap_2_tip wrap_2_tip_1">
+                        <p className="pr_name text-center">DINH DƯỠNG</p>
+                        <div className=" text-center">
+                            <Link to ="./tintuc"><button type="button" className="btn bt_product btn-xs">Tìm hiểu</button></Link>
+                            
+                        </div>
+                        </div>
                     </div>
-                    <div className="wrap_2_tip wrap_2_tip_1">
-                    <p className="pr_name text-center">DINH DƯỠNG</p>
-                    <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Tìm hiểu</button>
-                    </div>
+                    <div className="tip flex-fill">
+                        <div className="wrap_part_tip_2">
+                        <img src="./pic/pr26.png" className alt="Cinque Terre" />
+                        </div>
+                        <div className="wrap_2_tip wrap_2_tip_2">
+                        <p className="pr_name text-center">HUẤN LUYỆN</p>
+                        <div className=" text-center">
+                        <Link to ="./tintuc"><button type="button" className="btn bt_product btn-xs">Tìm hiểu</button></Link>
+                        </div>
+                        </div>
                     </div>
                 </div>
-                <div className="tip flex-fill"style={{minWidth: '200px'}}>
-                    <div className="wrap_part_tip_2">
-                    <img src="./pic/pr26.png" className alt="Cinque Terre" />
-                    </div>
-                    <div className="wrap_2_tip wrap_2_tip_2">
-                    <p className="pr_name text-center">HUẤN LUYỆN</p>
-                    <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Tìm hiểu</button>
-                    </div>
-                    </div>
-                </div>
-                <div className="tip flex-fill"style={{minWidth: '200px'}}>
+                <div className="inline">
+                <div className="tip flex-fill">
                     <div className="wrap_part_tip_3">
                     <img src="./pic/pr27.png" className alt="Cinque Terre" />
                     </div>
                     <div className="wrap_2_tip wrap_2_tip_3">
                     <p className="pr_name text-center">ĐỜI SỐNG</p>
                     <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Tìm hiểu</button>
+                    <Link to ="./tintuc"><button type="button" className="btn bt_product btn-xs">Tìm hiểu</button></Link>
                     </div>
                     </div>
                 </div>
-                <div className="tip flex-fill"style={{minWidth: '200px'}}>
+                <div className="tip flex-fill">
                     <div className="wrap_part_tip_4">
                     <img src="./pic/pr28.png" className alt="Cinque Terre" />
                     </div>
                     <div className="wrap_2_tip wrap_2_tip_4">
                     <p className="pr_name text-center">HỎI ĐÁP</p>
                     <div className=" text-center">
-                        <button type="button" className="btn bt_product btn-xs">Tìm hiểu</button>
+                    <Link to ="./tintuc"><button type="button" className="btn bt_product btn-xs">Tìm hiểu</button></Link>
                     </div>
                     </div>
                 </div>
+                </div>
+                
                 {/*end content, tips */}
                 </div>
                 {/* content, prduct sale of */}

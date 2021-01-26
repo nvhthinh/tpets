@@ -379,13 +379,14 @@ export default class Cart_manager extends Component {
                 </div>
                 </div>
                 {/*detail Modal*/}
-                {/* <a class="change" data-toggle="modal" data-target="#detail_Modal">Thay đổi</a> */}
-                <div className="modal fade" id="detail_Modal" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                {/* <div class="modal fade show" id="detail_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: block;"> */}
+                {/*detail Modal*/}
+        {/* hủy đơn hàng */}
+                <div className="modal fade" id="detail_Modal_cancel" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade show" id="detail_Modal_cancel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: block;"> */}
                 <div className="modal-dialog modal-lg" role="document">
                     <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-title" id="exampleModalLabel">Thông tin địa chỉ giao hàng</h5>
+                        <h5 className="modal-title text" id="exampleModalLabel">Bạn có chắc muốn hủy đơn hàng này</h5>
                         <button className="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                         </button>
@@ -393,32 +394,61 @@ export default class Cart_manager extends Component {
                     <div className="modal-body">
                         <form>
                         <div className="col-sm-12">
-                            <div className="row">
-                            <div className="col-sm-6 form-group">
-                                <label>Tên người nhận:</label>
-                                <input type="text" placeholder="Enter Name Here.." className="form-control" defaultValue="Trang Trang" />
-                            </div>
-                            <div className="col-sm-6 form-group">
-                                <label>Số điện thoại người nhận:</label>
-                                <input type="text" placeholder="Enter Number Phone Here.." className="form-control" defaultValue="(+84)399411776" />
-                            </div>
-                            </div>
+                            <p className="text-danger">*Bạn có chắc chắn muốn hủy đơn hàng này?. Sẽ không thể đặt hàng trong vòng 7 ngày nếu hủy quá 3 lần liên tiếp!</p>
                             <div className="form-group">
-                            <label>Địa chỉ: (Tỉnh/Thành phố, Quận/Huyện, Phường/Xã, Tòa nhà, tên đường...)</label>
-                            <textarea placeholder="Enter address detail Here.." rows={3} className="form-control" defaultValue={"Số 15, đường Tùm lum, Hòa Hải, Phường Hòa Hải, Quận Ngũ Hành Sơn, Đà Nẵng"} />
+                            <label>Chọn lý do muốn hủy</label>
+                            <select className="form-control" id="sel1">
+                                <option>Đã đặt rồi</option>
+                                <option>Tôi muốn đổi sản phẩm khác</option>
+                                <option>Không muốn mua nữa</option>
+                                <option>Lý do khác (Bạn vui lòng nhập lý do bên dưới)</option>
+                            </select> <br />
+                            <textarea placeholder="Không bắt buộc... Hảy cho tôi biết lý do để Tpets phục vụ bạn tốt hơn." rows={3} className="form-control" defaultValue={""} />
                             </div>
                         </div>
                         </form>
                     </div>
                     <div className="modal-footer">
                         <button className="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                        <a className="btn btn-custom" href="#">Lưu</a>
+                        <a className="btn btn-custom" href="#">Xác nhận hủy</a>
                     </div>
                     </div>
                 </div>
                 </div>
-                {/* content, prduct category */}
-                {/* END content, prduct category */}
+                {/* ranting */}
+                <div className="modal fade" id="detail_Modal_ranting" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade show" id="detail_Modal_cancel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: block;"> */}
+                <div className="modal-dialog modal-lg" role="document">
+                    <div className="modal-content">
+                    <div className="modal-header">
+                        <h5 className="modal-title text" id="exampleModalLabel">Đánh giá đơn hàng</h5>
+                        <button className="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div className="modal-body">
+                        <form>
+                        <div className="col-sm-12">
+                            <p className="text-info">Đánh giá để chúng tôi phục vụ bạn tốt hơn!</p>
+                            <div className="form-group">
+                            <label>Đánh giá cho đơn hàng</label>
+                            <p><i className="fas fa-star checked" />
+                                <i className="fas fa-star checked" />
+                                <i className="fas fa-star checked" />
+                                <i className="fas fa-star checked" />
+                                <i className="fas fa-star" /></p>
+                            <textarea placeholder="Không bắt buộc... Nội dung đánh giá." rows={3} className="form-control" defaultValue={""} />
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                    <div className="modal-footer">
+                        <button className="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <a className="btn btn-custom" href="#">Xác nhận hủy</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
         )
     }
