@@ -18,7 +18,7 @@ export default class Login extends Component {
                         <i className="fas fa-ticket-alt fa-2x" />
                         <p>-50%</p>
                     </div>
-                    <img src="./pic/pr1.jpg" className alt="Cinque Terre" />
+                    <img src="./pic/d9.jpg" className alt="Cinque Terre" />
                     
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm màu vàng</p></Link>
                     <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">17.000đ</span></p>
@@ -70,7 +70,7 @@ export default class Login extends Component {
                         <i className="fas fa-ticket-alt fa-2x" />
                         <p>-50%</p>
                     </div>
-                    <img src="./pic/pr2.jpg" className alt="Cinque Terre" />
+                    <img src="./pic/d2.jpg" className alt="Cinque Terre" />
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm</p></Link>
                     <p className="gr_price text-center"><span className="old">35.000</span> &nbsp; <span className="new">20.000đ</span></p>
                     <div className=" text-center">
@@ -221,7 +221,7 @@ export default class Login extends Component {
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
-                        <img src="./pic/pr6.jpg" className alt="Cinque Terre" />
+                        <img src="./pic/d8.jpg" className alt="Cinque Terre" />
                         <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đồ chơi trêu cún</p></Link>
                         <p className="gr_price text-center"> <span className="new">220.000đ</span>
                         </p>
@@ -392,7 +392,7 @@ export default class Login extends Component {
                     {/* content, product of hot category :dog*/}
                     <div className="row gr_product">
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
-                        <img src="./pic/pr1.jpg" className alt="Cinque Terre" />
+                        <img src="./pic/d10.jpg" className alt="Cinque Terre" />
                         <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Castrang</p></Link>
                         <p className="gr_price text-center"> <span className="new">56.000đ</span>
                         </p>
@@ -410,7 +410,7 @@ export default class Login extends Component {
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
-                        <img src="./pic/pr6.jpg" className alt="Cinque Terre" />
+                        <img src="./pic/d5.jpg" className alt="Cinque Terre" />
                         <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đồ chơi trêu mèo</p></Link>
                         <p className="gr_price text-center"> <span className="new">220.000đ</span>
                         </p>
@@ -437,7 +437,7 @@ export default class Login extends Component {
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
-                        <img src="./pic/pr1.jpg" className alt="Cinque Terre" />
+                        <img src="./pic/d2.jpg" className alt="Cinque Terre" />
                         <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
                         <p className="gr_price text-center"> <span className="new">111.000đ</span>
                         </p>
@@ -473,7 +473,7 @@ export default class Login extends Component {
                         </div>
                     </div>
                     <div className="product col-lg-2 col-xs-2 col-sm-4 col-6">
-                        <img src="./pic/pr22.jpg" className alt="Cinque Terre" />
+                        <img src="./pic/d1.jpg" className alt="Cinque Terre" />
                         <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
                         <p className="gr_price text-center"> <span className="new">110.000đ</span>
                         </p>

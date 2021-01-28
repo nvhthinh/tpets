@@ -19,9 +19,9 @@ export default class Login extends Component {
                         <i className="fas fa-ticket-alt fa-2x" />
                         <p>-50%</p>
                     </div>
-                    <img src="./pic/pr2.jpg" className alt="Cinque Terre" />
+                    <img src="./pic/c1.jpg" className alt="Cinque Terre" />
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <p className="gr_price text-center"><span className="new">299.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
                     </div>
@@ -33,7 +33,7 @@ export default class Login extends Component {
                     </div>
                     <img src="./pic/pr1.jpg" className alt="Cinque Terre" />
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <p className="gr_price text-center"> <span className="new">100.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product">Chọn mua</button>
                     </div>
@@ -44,9 +44,9 @@ export default class Login extends Component {
                         <i className="fas fa-ticket-alt fa-2x" />
                         <p>-50%</p>
                     </div>
-                    <img src="./pic/pr2.jpg" className alt="Cinque Terre" />
+                    <img src="./pic/c2.jpg" className alt="Cinque Terre" />
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <p className="gr_price text-center"> <span className="new">340.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
                     </div>
@@ -56,9 +56,9 @@ export default class Login extends Component {
                         <i className="fas fa-gifts fa-2x" />
                         <p>&nbsp;</p>
                     </div>
-                    <img src="./pic/pr1.jpg" className alt="Cinque Terre" />
-                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <img src="./pic/c6.jpg" className alt="Cinque Terre" />
+                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Sữa sau sinh</p></Link>
+                    <p className="gr_price text-center"> <span className="new">20.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product">Chọn mua</button>
                     </div>
@@ -69,9 +69,9 @@ export default class Login extends Component {
                         <i className="fas fa-ticket-alt fa-2x" />
                         <p>-50%</p>
                     </div>
-                    <img src="./pic/pr2.jpg" className alt="Cinque Terre" />
+                    <img src="./pic/c5.jpg" className alt="Cinque Terre" />
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <p className="gr_price text-center"> <span className="new">650.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
                     </div>
@@ -81,9 +81,9 @@ export default class Login extends Component {
                         <i className="fas fa-gifts fa-2x" />
                         <p>&nbsp;</p>
                     </div>
-                    <img src="./pic/pr1.jpg" className alt="Cinque Terre" />
-                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <img src="./pic/pr2.jpg" className alt="Cinque Terre" />
+                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Hạt ăn dặm</p></Link>
+                    <p className="gr_price text-center"> <span className="new">210.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product">Chọn mua</button>
                     </div>
@@ -105,9 +105,9 @@ export default class Login extends Component {
                         <i className="fas fa-ticket-alt fa-2x" />
                         <p>-50%</p>
                     </div>
-                    <img src="./pic/pr2.jpg" className alt="Cinque Terre" />
+                    <img src="./pic/d1.jpg" className alt="Cinque Terre" />
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <p className="gr_price text-center"> <span className="new">122.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
                     </div>
@@ -117,9 +117,9 @@ export default class Login extends Component {
                         <i className="fas fa-gifts fa-2x" />
                         <p>&nbsp;</p>
                     </div>
-                    <img src="./pic/pr1.jpg" className alt="Cinque Terre" />
+                    <img src="./pic/d2.jpg" className alt="Cinque Terre" />
                     <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <p className="gr_price text-center"> <span className="new">27.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product">Chọn mua</button>
                     </div>
@@ -130,9 +130,9 @@ export default class Login extends Component {
                         <i className="fas fa-ticket-alt fa-2x" />
                         <p>-50%</p>
                     </div>
-                    <img src="./pic/pr2.jpg" className alt="Cinque Terre" />
-                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <img src="./pic/d3.jpg" className alt="Cinque Terre" />
+                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Sữa sau sinh</p></Link>
+                    <p className="gr_price text-center"> <span className="new">243.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
                     </div>
@@ -142,9 +142,9 @@ export default class Login extends Component {
                         <i className="fas fa-gifts fa-2x" />
                         <p>&nbsp;</p>
                     </div>
-                    <img src="./pic/pr1.jpg" className alt="Cinque Terre" />
-                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <img src="./pic/d4.jpg" className alt="Cinque Terre" />
+                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Hạt ăn dặm</p></Link>
+                    <p className="gr_price text-center"> <span className="new">265.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product">Chọn mua</button>
                     </div>
@@ -155,9 +155,9 @@ export default class Login extends Component {
                         <i className="fas fa-ticket-alt fa-2x" />
                         <p>-50%</p>
                     </div>
-                    <img src="./pic/pr2.jpg" className alt="Cinque Terre" />
-                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Đĩa bay 20cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <img src="./pic/d5.jpg" className alt="Cinque Terre" />
+                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Royal cabin</p></Link>
+                    <p className="gr_price text-center"> <span className="new">154.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product btn-xs">Chọn mua</button>
                     </div>
@@ -167,9 +167,9 @@ export default class Login extends Component {
                         <i className="fas fa-gifts fa-2x" />
                         <p>&nbsp;</p>
                     </div>
-                    <img src="./pic/pr1.jpg" className alt="Cinque Terre" />
-                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Nhà Quả Dâu 38 x 45 x 38cm</p></Link>
-                    <p className="gr_price text-center"><span className="old">305.000</span> &nbsp; <span className="new">200.000đ</span></p>
+                    <img src="./pic/d6.jpg" className alt="Cinque Terre" />
+                    <Link to="sanpham" style={{textDecoration: 'none', color: '#000'}} ><p className="pr_name text-center">Hạt khổ</p></Link>
+                    <p className="gr_price text-center"> <span className="new">213.000đ</span></p>
                     <div className=" text-center">
                         <button type="button" className="btn bt_product">Chọn mua</button>
                     </div>
