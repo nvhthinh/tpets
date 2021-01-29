@@ -24,9 +24,13 @@ export default class Login extends Component {
                     <li data-target="#carousel_slide" data-slide-to={0} className="active" />
                     <li data-target="#carousel_slide" data-slide-to={1} />
                     <li data-target="#carousel_slide" data-slide-to={2} />
+                    <li data-target="#carousel_slide" data-slide-to={3} />
                     </ol>
                     <div className="carousel-inner">
                     <div className="carousel-item active">
+                        <img className="d-block w-100" src="./pic/slide4.png" alt="First slide" />
+                    </div>
+                    <div className="carousel-item">
                         <img className="d-block w-100" src="./pic/slide1.png" alt="First slide" />
                     </div>
                     <div className="carousel-item">
